@@ -1,0 +1,3 @@
+-keep class com.racing.dashboard.** { *; }
+-dontwarn com.racing.dashboard.**
+-keepattributes *Annotation*

@@ -1,0 +1,68 @@
+# ==========================================
+# Sim Racing Dashboard - Git Ignore Rules
+# ==========================================
+
+# Built application files & APKs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Gradle build artifacts & caches
+.gradle/
+build/
+/*/build/
+Android-app/build/
+Android-app/app/build/
+.externalNativeBuild/
+.cxx/
+
+# Local Android SDK configuration (contains machine-specific paths)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code / Claude / AI assistant caches
+.vscode/
+.claude/
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Log & temp files
+*.log
+*.tmp
+*.swp
+*~

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF0A0A0A</color>
+    <color name="light_text">#FFE0E0E0</color>
+    <color name="dark_surface">#FF0F0F0F</color>
+    <color name="card_surface">#FF151515</color>
+    <color name="neon_green">#FF00FF41</color>
+    <color name="neon_green_dark">#FF00391A</color>
+    <color name="neon_blue">#FF00EFFF</color>
+    <color name="neon_blue_dark">#FF00253F</color>
+    <color name="neon_red">#FFFF0033</color>
+    <color name="neon_yellow">#FFFFEA00</color>
+    <color name="gear_shift_red">#FFFF1100</color>
+    <color name="outline">#FF333333</color>
+    <color name="outline_variant">#FF2A2A2A</color>
+</resources>

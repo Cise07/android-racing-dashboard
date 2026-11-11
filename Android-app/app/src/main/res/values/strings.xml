@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Racing Dashboard</string>
+    <string name="gear">GEAR</string>
+    <string name="speed">SPEED</string>
+    <string name="rpm">RPM</string>
+    <string name="not_connected">Not Connected</string>
+</resources>

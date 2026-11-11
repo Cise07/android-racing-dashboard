@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Gradle startup script for Unix-like systems
+
+# Resolve links, may resolve a symlink
+prog_path=$0
+
+# Get the directory where the script is located
+APP_HOME=$(cd "$(dirname "$prog_path")" && pwd -P)
+
+# Use the maximum available, or set MAX_FD != 128 to avoid that limit warning.
+MAX_FD=maximum;
+
+# Determine Java executable
+if [ -n "$JAVA_HOME" ]; then
+    if [ -x "$JAVA_HOME/jre/sh/java" ]; then
+        # IBM 158 AIX
+        RUNJAVA="$JAVA_HOME/jre/sh/java"
+    else
+        RUNJAVA="$JAVA_HOME/bin/java"
+    fi
+else
+    RUNJAVA=java
+fi
+
+# Collect all arguments for the java command
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+# Execute Gradle
+exec "$RUNJAVA" -Xmx64m -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"
