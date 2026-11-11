@@ -84,7 +84,7 @@ A high-fidelity, real-time **GT3-style Sim Racing Telemetry Dashboard** for Andr
 
 ### 3️⃣ In-Game Telemetry Configuration
 
-#### 🎮 Forza Horizon 4 / 5 & Forza Motorsport
+#### 🎮 Forza Horizon 4 / 5 / 6 & Forza Motorsport
 1. Open the game and go to **Settings** → **HUD and Gameplay**.
 2. Scroll down to **Data Out** and set it to **ON**.
 3. Set **Data Out IP Address** to `127.0.0.1`.
